@@ -3,4 +3,4 @@
   //});
 
 locall =  JSON.stringify(Object.keys(localStorage))
-cookies = JSON.stringify(Object.keys(document.cookie));
+cookies = JSON.stringify(Object.keys(document.cookie))
