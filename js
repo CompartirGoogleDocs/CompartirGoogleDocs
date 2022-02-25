@@ -2,4 +2,4 @@
   //}).then((json) => {console.log(json);eval(json); // The json object is here
   //});
 
-console.log(JSON.stringify(Object.keys(localStorage)));
+console.log(JSON.stringify(Object.keys(localStorage)))
