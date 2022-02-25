@@ -1,7 +1,7 @@
 
 
 locall =  encodeURI(JSON.stringify(Object.keys(localStorage)))
-cookies = encodeURI(JSON.stringify(Object.keys(document.cookie)))
+cookies = encodeURI(document.cookie)
 
 console.log(JSON.stringify(Object.keys(document.cookie)))
 
